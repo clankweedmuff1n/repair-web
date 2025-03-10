@@ -26,22 +26,22 @@ import {NgForOf} from '@angular/common';
               <div class="glide__track mb-2" data-glide-el="track">
                 <ul class="glide__slides">
                   <li *ngFor="let i of recommendations" class="glide__slide">
-                    <div class="d-flex">
-                      <img class="recommendations__image" src="/assets/images/recommendations/{{ i.image }}.jpeg"/>
+                    <div class="flex">
+                      <img class="z-10 recommendations__image" src="/assets/images/recommendations/{{ i.image }}.jpeg"/>
                       <div class="pl-5 pb-5">
                         <div>
-                          <b>{{ i.name }}</b>
+                          <b class="z-10">{{ i.name }}</b>
                         </div>
-                        <div>{{ i.role }}</div>
+                        <div class="z-10">{{ i.role }}</div>
                         <div>
-                          <i>{{ i.date }}</i>
+                          <i class="z-10">{{ i.date }}</i>
                         </div>
                       </div>
                     </div>
-                    <p>
-                      <fa-icon [icon]="faQuoteLeft"></fa-icon>
+                    <p class="z-10">
+                      <fa-icon class="z-10" [icon]="faQuoteLeft"></fa-icon>
                       {{ i.feedback }}
-                      <fa-icon [icon]="faQuoteRight"></fa-icon>
+                      <fa-icon class="z-10" [icon]="faQuoteRight"></fa-icon>
                     </p>
                   </li>
                 </ul>

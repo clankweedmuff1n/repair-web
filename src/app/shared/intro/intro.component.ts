@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <div
       class="relative bg-[url('/assets/images/portfolio/cosmos.jpg')] h-[90vh] flex justify-center bg-center bg-cover text-center py-52">
-      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="absolute inset-0 bg-black opacity-60"></div>
       <div class="flex items-center justify-center flex-col text-white">
         <h1 class="z-10 text-6xl text-center mb-8">
           ООО "ХОТУКЕВ"
