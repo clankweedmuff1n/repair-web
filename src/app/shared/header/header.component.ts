@@ -19,28 +19,28 @@ import {RouterLink, RouterLinkActive} from '@angular/router';
               <ul class="m-0 p-0 pb-5 lg:pb-0">
                 <li class="inline-flex">
                   <a
-                    class="no-underline text-3xl py-5 pr-10 text-white hover:text-secondary"
+                    class="no-underline text-2xl py-5 pr-10 text-white hover:text-secondary"
                     [routerLink]="['/about-me']"
                     [routerLinkActive]="'text-secondary'"
                   >О НАС</a>
                 </li>
                 <li class="inline-flex">
                   <a
-                    class="no-underline text-3xl py-5 pr-10 text-white hover:text-secondary"
+                    class="no-underline text-2xl py-5 pr-10 text-white hover:text-secondary"
                     [routerLink]="['/my-skills']"
                     [routerLinkActive]="'text-secondary'"
                   >РЕМОНТ</a>
                 </li>
                 <li class="inline-flex">
                   <a
-                    class="no-underline text-3xl py-5 pr-10 text-white hover:text-secondary"
+                    class="no-underline text-2xl py-5 pr-10 text-white hover:text-secondary"
                     [routerLink]="['/portfolio']"
                     [routerLinkActive]="'text-secondary'"
                   >ОБСЛУЖИВАНИЕ</a>
                 </li>
                 <li class="inline-flex">
                   <a
-                    class="no-underline text-3xl py-5 pr-10 lg:pr-0 text-white hover:text-secondary"
+                    class="no-underline text-2xl py-5 pr-10 lg:pr-0 text-white hover:text-secondary"
                     [routerLink]="['/contact-me']"
                     [routerLinkActive]="'text-secondary'"
                   >НАШИ ПАРТНЕРЫ</a>

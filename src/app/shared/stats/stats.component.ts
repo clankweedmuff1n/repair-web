@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-stats',
   imports: [],
   template: `
-    <section class="my-40 py-5 border-none mx-0 bg-[url(https://bactoforce.com/wp-content/uploads/2021/08/graabaggrund.png)] bg-center bg-scroll bg-no-repeat bg-cover">
+    <section class="my-20 py-20 py-5 border-none mx-0 bg-[url(https://bactoforce.com/wp-content/uploads/2021/08/graabaggrund.png)] bg-center bg-scroll bg-no-repeat bg-cover">
         <section class="text-center h-auto flex flex-col items-center">
           <div class="h-auto flex flex-row justify-center items-start flex-wrap gap-10">
             <div class="text-center h-auto flex flex-col items-center">

@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <div
-      class="relative bg-[url('/assets/images/portfolio/cosmos.jpg')] mb-10 h-[90vh] flex justify-center bg-center bg-cover text-center py-52">
+      class="relative bg-[url('/assets/images/portfolio/cosmos.jpg')] h-[90vh] flex justify-center bg-center bg-cover text-center py-52">
       <div class="absolute inset-0 bg-black opacity-50"></div>
       <div class="flex items-center justify-center flex-col text-white">
         <h1 class="z-10 text-6xl text-center mb-8">
-          ИП "ХОТУКЕВ"
+          ООО "ХОТУКЕВ"
         </h1>
         <h2 class="z-10 text-4xl mb-8">
           ОБСЛУЖИВАНИЕ, РЕМОНТ, МОДЕРНИЗАЦИЯ ПЛАСТИЧНЫХ ТЕПЛООБМЕННИКОВ

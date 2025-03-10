@@ -9,8 +9,7 @@ import {NgForOf} from '@angular/common';
   ],
   template: `
     <div
-      class="bg-[#e6f0c3] bg-repeat-x py-20"
-      style="background-image: url('/assets/images/featured-work/featured-work-bg-top.gif'), url('/assets/images/featured-work/featured-work-bg-bottom.gif'); background-position: top, bottom;"
+      class="py-20 bg-center bg-scroll bg-no-repeat bg-cover bg-[url('https://bactoforce.com/wp-content/uploads/2021/08/graabaggrund.png')]"
     >
       <div class="flex flex-row items-center justify-center">
         <article class="max-w-7xl">
